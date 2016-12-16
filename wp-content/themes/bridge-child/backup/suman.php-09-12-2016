@@ -1,0 +1,323 @@
+<?php
+	//For New Home Page
+	function human_carousel($atts, $content = null) { 
+		$atts = shortcode_atts( array(
+			'count' => '0',
+			'lang' => 'en',
+			'order' => 'DESC'
+		), $atts, 'human' );		
+?>
+		<script type="text/javascript">
+		jQuery(document).ready(function(e) {
+			/*jQuery(".human_carousel_wrapper").length && (jQuery(".human_carousel_wrapper").each(function() {*/
+				jQuery(this).find(".human_carousel").carouFredSel({
+					circular: true,
+					responsive: true,
+					scroll: {
+						items: 1,
+						duration: 500,
+						pauseOnHover: true
+					},
+					items: {
+						width: 500,
+						visible: {
+							min: 1,
+							max: 4
+						}
+					},
+					auto: false,
+					mousewheel: false,
+					swipe: {
+						onMouse: true,
+						onTouch: true
+					},
+					prev: {
+						button: function() {
+							return jQuery(this).parents().eq(1).find(".prev")
+						}
+					},
+					next: {
+						button: function() {
+							return jQuery(this).parents().eq(1).find(".next")
+						}
+					}
+				}).animate({
+					opacity: 1
+				}, 5000)
+			//});
+		});
+	</script>
+<?php
+		$html.= '<div class="human_carousel_wrapper human human_carousel-beforeLoad" data-wow-delay="0.1s">';
+					/*$html.= '<div class="human_list_btn">';
+						$html.= '<a class="prev" href="#"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/previous.png" class="prev-pic"></a>';
+						$html.= '<a class="next" href="#"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/next.png" class="next-pic"></a>';
+					$html.= '</div>';*/
+			$html.= '<ul class="human_carousel slides">';			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+							$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/angelica.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Angelica Di Guglielmo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';	
+							$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/atsushi.png" class="human-pic">';
+							$html.= '<div class="human-details">';
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Atsushi Alex Yoshida</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Japanese Interpreter</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL ASIAN OFFICES</a></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/ramiro.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Ramiro Gallardo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/united-states">ALL AMERICA OFFICES</a></div>';	
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/fodhil.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Fodhil Meziani</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';		
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/angelica.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Angelica Di Guglielmo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';	
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/atsushi.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Atsushi Alex Yoshida</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Japanese Interpreter</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL ASIAN OFFICES</a></div>';	
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/ramiro.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Ramiro Gallardo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/united-states">ALL AMERICA OFFICES</a></div>';
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/fodhil.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Fodhil Meziani</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';		
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+				//endwhile;
+			$html.= '</ul>';		
+		$html.= '</div>';
+				
+		return $html;
+
+	}
+	add_shortcode('human', 'human_carousel');
+
+
+	//For Live home page
+	function humanlive_carousel($atts, $content = null) {
+		$atts = shortcode_atts( array(
+			'count' => '0',
+			'lang' => 'en',
+			'order' => 'DESC'
+		), $atts, 'humanlive' );		
+?>
+		<script type="text/javascript">
+		jQuery(document).ready(function(e) {
+			/*jQuery(".humanlive_carousel_wrapper").length && (jQuery(".humanlive_carousel_wrapper").each(function() {*/
+				jQuery(this).find(".humanlive_carousel").carouFredSel({
+					circular: true,
+					responsive: true,
+					scroll: {
+						items: 1,
+						duration: 500,
+						pauseOnHover: false
+					},
+					items: {
+						width: 1100,
+						visible: {
+							min: 1,
+							max: 1
+						}
+					},
+					auto: false,
+					mousewheel: false,
+					swipe: {
+						onMouse: true,
+						onTouch: true
+					},
+					prev: {
+						button: function() {
+							return jQuery(this).parents().eq(1).find(".prev")
+						}
+					},
+					next: {
+						button: function() {
+							return jQuery(this).parents().eq(1).find(".next")
+						}
+					}
+				}).animate({
+					opacity: 1
+				}, 5000)
+			//});
+			var setbg = 1;
+			var bgimg = ''
+			jQuery('.humanlive_list_btn a').click(function() {
+				
+				if(jQuery(this).attr('class') == 'prev') {
+					if(setbg == 1){
+						setbg = 4;
+					} else {
+						setbg = setbg - 1;
+					}				
+				} else {
+					if(setbg == 4){
+						setbg = 1;
+					} else {
+						setbg = setbg + 1;
+					}
+				}
+				jQuery('#carousel_trns').css('background-image', 'url(/wp-content/themes/bridge-child/images/bg_' + setbg + '.jpg)');
+			});
+			
+			
+			jQuery('#carousel_trns').css('background-image', 'url(/wp-content/themes/bridge-child/images/bg_' + setbg + '.jpg)');
+			
+		});
+		
+	</script>
+<?php
+		$html.= '<div class="humanlive_carousel_wrapper humanlive humanlive_carousel-beforeLoad" data-wow-delay="0.1s">';
+					$html.= '<div class="humanlive_list_btn">';
+						$html.= '<a class="prev" href="#"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/previous.png" class="prev-pic"></a>';
+						$html.= '<a class="next" href="#"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/next.png" class="next-pic"></a>';
+					$html.= '</div>';
+			$html.= '<ul class="humanlive_carousel slides">';
+			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/angelica-di-guglielmo-she-is-a-f-r-i-t-s-p-e-n-translator.png" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type translator">Translator</div>';
+								$html.= '<div class="humanlive-name">Angelica Di Guglielmo</div>';
+								$html.= '<div class="humanlive-area">Sayreville, New Jersey</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">Languages: French, Italian, Spanish</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I have a degree in translation from New York University</li><li>I love geography and collect maps and flags</li><li>I do special effects makeup for film as a hobby</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/a-yoshida-head-shot.png" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type interpreter">Interpreter</div>';
+								$html.= '<div class="humanlive-name">Atsushi Alex Yoshida</div>';
+								$html.= '<div class="humanlive-area">Boulder, Colorado</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">Languages: Japanese & English</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I have my own Japanese blog site.</li><li>I have been to more than 50 different cities in USA and Canada.</li><li>I interpret at courts, hospitals, schools and business/conference meetings.</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/gallardo-ramiro.jpeg" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type translator">Translator</div>';
+								$html.= '<div class="humanlive-name">Ramiro Gallardo</div>';
+								$html.= '<div class="humanlive-area">Mexico City</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">Languages: Spanish</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I live in Mexico</li><li>I love running</li><li>I enjoy travelling</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/Fodhil-Meziani.jpg" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type interpreter">Interpreter</div>';
+								$html.= '<div class="humanlive-name">Fodhil Meziani</div>';
+								$html.= '<div class="humanlive-area">Brooklyn, New York</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">French, Italian, Spanish Translator</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I like to learn different cultures.</li><li>I love to travel to different countries.</li><li>I love to try different foods from other cultures.</li><li>I have BS  degrees in Business, Management and Finance.</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+				//endwhile;
+			$html.= '</ul>';		
+		$html.= '</div>';				
+		return $html;
+	}
+	add_shortcode('humanlive', 'humanlive_carousel');
+

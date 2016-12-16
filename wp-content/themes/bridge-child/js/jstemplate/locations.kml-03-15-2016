@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Locator KML Example</name>
+  <description><![CDATA[]]></description>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>New York Office</name>
+    <description><![CDATA[<a target="_blank" href="/newyork">Day Translations</a><br><span>415 Madison Avenue</span><br><span>New York City, NY 10017, United States</span><br><span>(212) 537-6123</span><br>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-73.976173,40.756844,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Day Translations, Washington DC</name>
+    <description><![CDATA[<a target="_blank" href="/dc">Day Translations, Washington DC</a><br><span>1101 Pennsylvania Avenue, 5th Floor</span><br><span>Washington, DC 20004, United States</span><br><span>(202) 787-3984</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=38.895008,-77.027376&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-77.027374,38.895008,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tampa Office</name>
+    <description><![CDATA[<a target="_blank" href="/tampa">Day Translations Inc</a><br><span>7602 Transom Court</span><br><span>Tampa, FL 33607, United States</span><br><span></span><br>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-82.567123,27.971308,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>San Fransisco</name>
+    <description><![CDATA[<a target="_blank" href="http://www.daytranslations.com/san-francisco">Day Translations, Inc.</a><br><span>1750 Montgomery Street</span><br><span>San Francisco, CA 94133, United States</span><br><span>(415) 738-2133</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=37.805246,-122.404840&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-122.404839,37.805244,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Phoenix Office</name>
+    <description><![CDATA[<a target="_blank" href="/phoenix">Day Translations: Phoenix</a><br><span>40 North Central Avenue #1400</span><br><span>Phoenix, AZ 85004, United States</span><br><span>(800) 969-6853</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=33.449067,-112.074671&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-112.074669,33.449070,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chicago Office</name>
+    <description><![CDATA[<a target="_blank" href="/chicago">Day Translations: Chicago</a><br><span>33 N Dearborn St #400</span><br><span>Chicago, IL 60602, United States</span><br><span>(800) 969-6853</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=41.882982,-87.629066&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-87.629066,41.882980,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Miami Office</name>
+    <description><![CDATA[<a target="_blank" href="/miami">Day Translations: Miami</a><br><span>1111 Lincoln Road</span><br><span>Miami, FL 33139, United States</span><br><span>(305) 420-6375</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=25.790987,-80.140983&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-80.140984,25.790987,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Los Angeles</name>
+    <description><![CDATA[<a target="_blank" href="/los-angeles">Day Translations: Los Angeles</a><br><span>11601 Wilshire Blvd</span><br><span>Los Angeles, CA 90025, United States</span><br><span>(310) 601-7695</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=34.050927,-118.459968&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-118.459969,34.050926,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Denver</name>
+    <description><![CDATA[<a target="_blank" href="/denver">Day Translations: Denver</a><br><span>100 Fillmore Street</span><br><span>Denver, CO 80206, United States</span><br><span>(303) 325-3979</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=39.718392,-104.953028&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-104.953026,39.718391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>United Kingdom</name>
+    <description><![CDATA[<a target="_blank" href="/london">Day Translations</a><br><span>1 Northumberland Avenue</span><br><span>London WC2N 5BW, United Kingdom</span><br><span>+44 20 3002 8293</span><br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=51.507177,-0.126722&amp;thumb=0" class="rimg">]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-0.126722,51.507175,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai</name>
+    <description><![CDATA[<a target="_blank" href="/dubai">Day Translations, Dubai</a><br><span>Dubai BCW Jafza View 18 &amp; 19, Jebel Ali Free Zone, Dubai</span><br><span>United Arab Emirates</span><br><span>+971 4 813 7740</span><br>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>55.073967,25.009010,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

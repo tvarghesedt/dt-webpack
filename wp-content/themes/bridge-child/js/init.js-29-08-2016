@@ -1,0 +1,14 @@
+jQuery(document).ready(function() {
+	var aboutOffsetpx = jQuery('.iframeform-wrapper .iframeform').innerHeight();
+	alert(aboutOffsetpx);
+	console.log(aboutOffsetpx);
+	jQuery('.iframeform-wrapper .iframeform').affix({
+  		offset: {
+    		top: 60,
+    		bottom: function () {
+    		//return (this.bottom = jQuery('.services-wrapper-content').outerHeight(true) + aboutOffsetpx);
+        return (this.bottom = jQuery('.services-wrapper-content').outerHeight(true) + jQuery('footer').outerHeight(true) + aboutOffsetpx);
+    		}
+  		}
+	});
+});

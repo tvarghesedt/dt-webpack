@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="https://earth.google.com/kml/2.2">
+<Document>
+  <name>Locator KML Example</name>
+  <description><![CDATA[]]></description>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  
+  <Placemark>
+    <name>Amman</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\amman"><b>Visit Amman<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>35.945652,31.956541,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Australia</name>
+    <description><![CDATA[<span>Phone: 6-(126)-108-4606<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\australia"><b>Visit Australia<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>134.358537,-25.198061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bangalore</name>
+    <description><![CDATA[<span>Phone: +91-11-64645557<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\bangalore"><b>Visit Bangalore<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>77.596556,12.972584,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Barcelona</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\barcelona"><b>Visit Barcelona<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>2.179321,41.386011,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beijing</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\beijing"><b>Visit Beijing<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>116.402913,39.915378,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bogota</name>
+    <description><![CDATA[<span>Phone: +57-13441461<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\bogota-espanol"><b>Visit Bogota<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-74.063875,4.712613,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brasilia</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\brasilia"><b>Visit Brasilia<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-47.939622,-15.725683,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Buenos Aires</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\buenos-aires"><b>Visit Buenos Aires<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-58.380459,-34.593702,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Canada</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\canada"><b>Visit Canada<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-110.484502,60.385298,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cape Town</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\cape-town"><b>Visit Cape Town<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>18.504824,-33.877240,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chennai</name>
+    <description><![CDATA[<span>Phone: +91-11-64645557<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\chennai"><b>Visit Chennai<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>80.268012,13.084866,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>China</name>
+    <description><![CDATA[<span>Phone: 1-800-856-2759<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\china"><b>Visit China<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>103.960092,34.416890,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dubai</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853</span><br><span>Dubai BCW Jafza View 18-19<br>1st Floor, Jebel Ali<br>Free Zone, Dubai,<br>UAE 17266<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\dubai"><b>Visit Dubai<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>55.073946,25.009040,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dublin</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\dublin"><b>Visit Dublin<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-6.257385,53.347609,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Germany</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\germany"><b>Visit Germany<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>10.075974,50.898372,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Guangzhou</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\guangzhou"><b>Visit Guangzhou<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>113.277087,23.106925,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ho Chi Minh City</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853</span><br><span>33 N Dearborn St,<br>Suite 400, Chicago,<br>IL 60602<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\ho-chi-minh-city"><b>Visit Ho Chi Minh City<b></a></span>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>106.688763,10.817110,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>India</name>
+    <description><![CDATA[<span>Phone: +91-11-64645557<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\india"><b>Visit India<b></a></span>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>78.158676,23.411100,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Israel</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\israel"><b>Visit Israel<b></a></span>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>34.815193,30.997468,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kolkata</name>
+    <description><![CDATA[<span>Phone: +91-11-64645557<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\kolkata"><b>Visit Kolkata<b></a></span>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>88.404244,22.576608,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kuwait</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\kuwait"><b>Visit Kuwait<b></a></span>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>47.622839,29.280648,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>London</name>
+    <description><![CDATA[<span>Phone: (713) 589-5461<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\london"><b>Visit London<b></a></span>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-0.123603,51.506089,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Madrid</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853</span><br><span>11601 Wilshire Blvd.,<br>5th Floor, Los Angeles,<br>California 90025, US<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\madrid"><b>Visit Madrid<b></a></span>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-3.704266,40.418530, 0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mexico City</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\languages/\mexico-city"><b>Visit Mexico City<b></a></span>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-99.124436,19.428081,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mumbai</name>
+    <description><![CDATA[<span>Phone: +91-11-64645557<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\mumbai"><b>Visit Mumbai<b></a></span>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>72.875012,19.075060,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Delhi</name>
+    <description><![CDATA[<span>Phone: +91-11-64645557<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\new-delhi"><b>Visit New Delhi<b></a></span>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>77.239027,28.657205,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Paris</name>
+    <description><![CDATA[<span>Phone: 1-800-856-2759<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\paris"><b>Visit Paris<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>2.346181,48.857482,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Qatar</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\qatar"><b>Visit Qatar<b></a></span>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>51.179394,25.233453,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Quebec</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\quebec"><b>Visit Quebec<b></a></span>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-71.014344,52.171904,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Riyadh</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\languages/\riyadh"><b>Visit Riyadh<b></a></span>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>46.709930,24.800527,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Saudi Arabia</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\saudi-arabia"><b>Visit Saudi Arabia<b></a></span>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>46.709930,24.800527,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Seoul</name>
+    <description><![CDATA[<span>Phone: 1-800-856-2759<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\seoul"><b>Visit Seoul<b></a></span>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>127.024795,37.497661,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shanghai</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\shanghai"><b>Visit Shanghai<b></a></span>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>121.465587,31.220785,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tel Aviv</name>
+    <description><![CDATA[<span>Phone: 1-800-856-2759<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\tel-aviv"><b>Visit Tel Aviv<b></a></span>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>34.774584,32.092525,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tokyo</name>
+    <description><![CDATA[<span>Phone: (81) 345789740<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\tokyo"><b>Visit Tokyo<b></a></span>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>139.703909,35.666884,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Turkey</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\tokyo"><b>Visit Turkey<b></a></span>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>35.426244,39.021728,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>United Kingdom</name>
+    <description><![CDATA[<span>Phone: 1-800-856-2759<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\united-kingdom"><b>Visit United Kingdom<b></a></span>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-2.293555,54.552383,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

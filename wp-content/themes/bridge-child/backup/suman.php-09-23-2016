@@ -1,0 +1,659 @@
+<?php
+	//For New Home Page
+	function human_carousel($atts, $content = null) { 
+		$atts = shortcode_atts( array(
+			'count' => '0',
+			'lang' => 'en',
+			'order' => 'DESC'
+		), $atts, 'human' );		
+?>
+		<script type="text/javascript">		
+		jQuery(document).ready(function(e){jQuery(this).find(".human_carousel").carouFredSel({circular:!0,responsive:!0,scroll:{items:1,duration:500,pauseOnHover:!0},items:{width:400,visible:{min:1,max:3}},auto:!1,mousewheel:!1,swipe:{onMouse:!0,onTouch:!0},prev:{button:function(){return jQuery(this).parents().eq(1).find(".prev")}},next:{button:function(){return jQuery(this).parents().eq(1).find(".next")}}}).animate({opacity:1},5e3)});
+	</script>
+	
+<?php
+		$html.= '<div class="human_carousel_wrapper human human_carousel-beforeLoad" data-wow-delay="0.1s">';
+					$html.= '<div class="human_list_btn">';
+						$html.= '<a class="prev" href="#"><span class="fa-stack"><i class="fa fa-angle-left" style=""></i></span></a>';
+						$html.= '<a class="next" href="#"><span class="fa-stack"><i class="fa fa-angle-right" style=""></i></span></a>';
+					$html.= '</div>';
+			$html.= '<ul class="human_carousel slides">';			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+							$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/angelica.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Angelica Di Guglielmo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';	
+							$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/atsushi.png" class="human-pic">';
+							$html.= '<div class="human-details">';
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Atsushi Alex Yoshida</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Japanese Interpreter</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL ASIAN OFFICES</a></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/ramiro.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Ramiro Gallardo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/united-states">ALL AMERICA OFFICES</a></div>';	
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/fodhil.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Fodhil Meziani</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';		
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/angelica.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Angelica Di Guglielmo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';	
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/atsushi.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Atsushi Alex Yoshida</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Japanese Interpreter</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL ASIAN OFFICES</a></div>';	
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/ramiro.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Ramiro Gallardo</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/united-states">ALL AMERICA OFFICES</a></div>';
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="human_content_inner">';
+						$html.= '<div class="human-image">';
+						$html.= '<div class="human-image-wrapp">';
+						$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/fodhil.png" class="human-pic">';
+							$html.= '<div class="human-details">';						
+							$html.= '<div class="human-name"><a href="https://www.daytranslations.com/quote">Fodhil Meziani</a></div>';
+							$html.= '<div class="human-type"><a href="https://www.daytranslations.com/quote">French, Italian, Spanish Translator</a></div>';
+							$html.= '<div class="human-area"><a href="https://www.daytranslations.com/locations/worldwide">ALL EUROPE OFFICES</a></div>';		
+							$html.= '</div>';
+						$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+				//endwhile;
+			$html.= '</ul>';		
+		$html.= '</div>';
+				
+		return $html;
+
+	}
+	add_shortcode('human', 'human_carousel');
+
+
+	//For Live home page
+	function humanlive_carousel($atts, $content = null) {
+		$atts = shortcode_atts( array(
+			'count' => '0',
+			'lang' => 'en',
+			'order' => 'DESC'
+		), $atts, 'humanlive' );		
+?>
+		<script type="text/javascript">
+		jQuery(document).ready(function(e){jQuery(this).find(".humanlive_carousel").carouFredSel({circular:!0,responsive:!0,scroll:{items:1,duration:500,pauseOnHover:!1},items:{width:1100,visible:{min:1,max:1}},auto:!1,mousewheel:!1,swipe:{onMouse:!0,onTouch:!0},prev:{button:function(){return jQuery(this).parents().eq(1).find(".prev")}},next:{button:function(){return jQuery(this).parents().eq(1).find(".next")}}}).animate({opacity:1},5e3);var r=1;jQuery(".humanlive_list_btn a").click(function(){"prev"==jQuery(this).attr("class")?1==r?r=4:r-=1:4==r?r=1:r+=1,jQuery("#carousel_trns").css("background-image","url(/wp-content/themes/bridge-child/images/bg_"+r+".jpg)")}),jQuery("#carousel_trns").css("background-image","url(/wp-content/themes/bridge-child/images/bg_"+r+".jpg)")});
+		
+	</script>
+<?php
+		$html.= '<div class="humanlive_carousel_wrapper humanlive humanlive_carousel-beforeLoad" data-wow-delay="0.1s">';
+					$html.= '<div class="humanlive_list_btn">';
+						$html.= '<a class="prev" href="#"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/previous.png" class="prev-pic"></a>';
+						$html.= '<a class="next" href="#"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/next.png" class="next-pic"></a>';
+					$html.= '</div>';
+			$html.= '<ul class="humanlive_carousel slides">';
+			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/angelica-di-guglielmo-she-is-a-f-r-i-t-s-p-e-n-translator.png" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type translator">Translator</div>';
+								$html.= '<div class="humanlive-name">Angelica Di Guglielmo</div>';
+								$html.= '<div class="humanlive-area">Sayreville, New Jersey</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">Languages: French, Italian, Spanish</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I have a degree in translation from New York University</li><li>I love geography and collect maps and flags</li><li>I do special effects makeup for film as a hobby</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/a-yoshida-head-shot.png" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type interpreter">Interpreter</div>';
+								$html.= '<div class="humanlive-name">Atsushi Alex Yoshida</div>';
+								$html.= '<div class="humanlive-area">Boulder, Colorado</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">Languages: Japanese & English</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I have my own Japanese blog site.</li><li>I have been to more than 50 different cities in USA and Canada.</li><li>I interpret at courts, hospitals, schools and business/conference meetings.</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/gallardo-ramiro.jpeg" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type translator">Translator</div>';
+								$html.= '<div class="humanlive-name">Ramiro Gallardo</div>';
+								$html.= '<div class="humanlive-area">Mexico City</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">Languages: Spanish</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I live in Mexico</li><li>I love running</li><li>I enjoy travelling</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					$html.= '<li class="humanlive_content_inner">';
+						$html.= '<div class="humanlive_content_wrapper">';
+							$html.= '<div class="humanlive-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/Fodhil-Meziani.jpg" class="humanlive-pic">';
+							$html.= '</div>';
+							$html.= '<div class="humanlive-details">';
+								$html.= '<div class="humanlive-type interpreter">Interpreter</div>';
+								$html.= '<div class="humanlive-name">Fodhil Meziani</div>';
+								$html.= '<div class="humanlive-area">Brooklyn, New York</div>';
+								//$html.= '<div class="humanlive-date">at Day Translations since June 2008</div>';
+								$html.= '<div class="humanlive-lang">French, Italian, Spanish Translator</div>';
+								$html.= '<div class="humanlive-bio"><ul><li>I like to learn different cultures.</li><li>I love to travel to different countries.</li><li>I love to try different foods from other cultures.</li><li>I have BS  degrees in Business, Management and Finance.</li></ul></div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+				//endwhile;
+			$html.= '</ul>';		
+		$html.= '</div>';				
+		return $html;
+	}
+	add_shortcode('humanlive', 'humanlive_carousel');
+	
+	
+	
+	//Our Employees Loves Us For Live home page
+	function employees_carousel($atts, $content = null) {
+		$atts = shortcode_atts( array(
+			'count' => '0',
+			'lang' => 'en',
+			'order' => 'DESC'
+		), $atts, 'employees' );		
+?>
+		<script type="text/javascript">
+		jQuery(document).ready(function(e){jQuery(this).find(".employeesLove_carousel").carouFredSel({circular:!0,responsive:!0,scroll:{items:1,duration:500,pauseOnHover:!1},items:{width:500,visible:{min:1,max:2}},auto:!1,mousewheel:!1,swipe:{onMouse:!0,onTouch:!0},prev:{button:function(){return jQuery(this).parents().eq(1).find(".prev")}},next:{button:function(){return jQuery(this).parents().eq(1).find(".next")}}}).animate({opacity:1},5e3)});
+		
+	</script>
+<?php
+		$html.= '<div class="employeesLove_carousel_wrapper employeesLove employeesLove_carousel-beforeLoad" data-wow-delay="0.1s">';
+					$html.= '<div class="employees_list_btn">';
+						$html.= '<a class="prev" href="#"><span class="fa-stack"><i class="fa fa-angle-left" style=""></i></span></a>';
+						$html.= '<a class="next" href="#"><span class="fa-stack"><i class="fa fa-angle-right" style=""></i></span></a>';
+					$html.= '</div>';
+			$html.= '<ul class="employeesLove_carousel slides">';
+			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Trilingual Linguist, George Primov in Fairfax, VA</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Interpreter in New York, NY</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Trilingual Linguist, George Primov in Fairfax, VA</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Interpreter in New York, NY</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Trilingual Linguist, George Primov in Fairfax, VA</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Interpreter in New York, NY</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Trilingual Linguist, George Primov in Fairfax, VA</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Interpreter in New York, NY</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Trilingual Linguist, George Primov in Fairfax, VA</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="employees_content_inner">';
+						$html.= '<div class="employees_content_wrapper">';
+							$html.= '<div class="employees-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-img.png" class="employees-pic">';
+							$html.= '</div>';
+							$html.= '<div class="employees-review-details">';								
+								$html.= '<div class="employees-name">Interpreter in New York, NY</div>';
+								$html.= '<div class="employees-star"><img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/employees-star.png" class="employees-star"></div>';
+								$html.= '<div class="employees-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';						
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+			$html.= '</ul>';		
+		$html.= '</div>';				
+		return $html;
+	}
+	add_shortcode('employees', 'employees_carousel');
+	
+	//trustpilot Live home page
+	function trustpilot_carousel($atts, $content = null) {
+		$atts = shortcode_atts( array(
+			'count' => '0',
+			'lang' => 'en',
+			'order' => 'DESC'
+		), $atts, 'trustpilot' );		
+?>
+		<script type="text/javascript">
+		jQuery(document).ready(function(e){jQuery(this).find(".trustpilot_carousel").carouFredSel({circular:!0,responsive:!0,scroll:{items:1,duration:500,pauseOnHover:!1},items:{width:400,visible:{min:1,max:3}},auto:!1,mousewheel:!1,swipe:{onMouse:!0,onTouch:!0},prev:{button:function(){return jQuery(this).parents().eq(1).find(".prev")}},next:{button:function(){return jQuery(this).parents().eq(1).find(".next")}}}).animate({opacity:1},5e3)});		
+	</script>
+<?php
+		$html.= '<div class="trustpilot_carousel_wrapper trustpilot trustpilot_carousel-beforeLoad" data-wow-delay="0.1s">';
+					$html.= '<div class="trustpilot_list_btn">';
+						$html.= '<a class="prev" href="#"><span class="fa-stack"><i class="fa fa-angle-left" style=""></i></span></a>';
+						$html.= '<a class="next" href="#"><span class="fa-stack"><i class="fa fa-angle-right" style=""></i></span></a>';
+					$html.= '</div>';
+			$html.= '<ul class="trustpilot_carousel slides">';
+			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>April 18, 2016</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">This is a truly excellent company</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">I contacted this company late on a Saturday afternoon after I learned that I needed a certified translation of a document ASAP. They answered the phone immediately, responded to emails instantly, and charged a very reasonable price for translating the documents and providing electronic copies by nine the next morning. (They only promise a 24 hour turnaround, but my docs were ready sooner.) They agreed to adjust the price when I decided I did not need hard copies. When I found a tiny error on one page, they sent out a corrected copy in about five minutes. In all, a terrific company. They are worth your trust.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Stephen Brain</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>January 30, 2016</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Interpretation task in Kuwait</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">This was my first task with the company. I do really highly recommend it for both customers and translators. Excellent customer service and communication. The CEO Mr. Sean Hoopwood is just the perfect example for the great difference between a boss and a leader as he is always involved in all the process. Really enjoyed working with it and look for more tasks.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Mai Tayel</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>August 12, 2015</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Absolutely Excellent Service</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">I will certainly be going to Day Translations again for any translations I need. Everyone was so attentive and professional and did everything in their power to ensure I received exactly what I wanted and quickly!!</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Krista</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>8 hours ago</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Well done</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">I will never get tired of saying - you guys are simply THE BEST in the industry when it comes to project management, from initiation to payment and you are setting the golden standard!</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Andrew</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>June 9, 2015</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Flawless service</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">I live in Turkey but I needed certified translations from portuguese to english, which was very hard to find here in Istanbul The Day Translations service is amazing! Not only they had the translator I needed but they worked during saturday an sunday, so I was able to send my translation in time. They sent me a scanned pdf with my translations as I requested, then the physical copy with all the proper seals and stampings arrived in no time. They are also quite flexible with payment options.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Gustavo Alcarde</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>May 17, 2015</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Excellent customer service</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">The service provided by Day Translations was exceptional. The actual translation of our documents was very prompt and of high quality. Most importantly, the manager assigned to our project helped guide us through the process of acquiring our first certified translation, and took the time to explain to us in laymen\'s terms the steps involved.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+									$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Melissa Barnhart</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>March 6, 2015</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Excellent professional service.</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">Day Translations provided our organization with high quality work. The project (although small) was completed within 2 business days. Without reservation, I would recommend Day Translations to any for profit or nonprofit entity in need of translation services. Keep up the high quality work.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Walter Martin</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>January 23, 2015</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Nice</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">Very simple to use, recommend to all.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Richard</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>October 11, 2014</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">Extremely Fast Turn-around.</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">Quick quote. Fast translation. Very responsive to questions. Very satisfied. Definitely recommend.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Barbara S</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>October 1, 2014</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">They aren\'t kidding when they say they work 24/7</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">We have used Day Translations on several jobs...each job is translating English into Arabic. They state the job isn\'t done until the customer is satisfied....and that is how they work. We had a small job (under 30 words) which had multiple revisions. During one set of changes to the job, I emailed on Sunday and received a prompt answer... I\'m impressed by their dedication and delivering as promised.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Susan Jay</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+			$html.= '</ul>';		
+		$html.= '</div>';				
+		return $html;
+	}
+	add_shortcode('trustpilot', 'trustpilot_carousel');
+	
+
+function searchfilter($query) {
+    if ($query->is_search && !is_admin() ) {
+        $query->set('post_type',array('page'));
+		$query->set( 'post_parent', array('45', '1337', '39') );
+		$query->set('posts_per_page', 30);
+		$query->set('post_status', array('publish'));
+        $query->set('meta_query', array(                                            
+                                            array(
+                                              'key' => '_yoast_wpseo_meta-robots-nofollow',
+                                              //'value' => 1,
+                                              //'compare' => '!='
+											  'compare' => 'NOT EXISTS',
+                                            )
+                                        )
+                   );
+    }
+return $query;
+}
+
+add_filter('pre_get_posts','searchfilter');
+
+function wpse_11826_search_by_title( $search, $wp_query ) {
+    if ( ! empty( $search ) && ! empty( $wp_query->query_vars['search_terms'] ) ) {
+        global $wpdb;
+
+        $q = $wp_query->query_vars;
+        $n = ! empty( $q['exact'] ) ? '' : '%';
+
+        $search = array();
+
+        foreach ( ( array ) $q['search_terms'] as $term )
+            $search[] = $wpdb->prepare( "$wpdb->posts.post_title LIKE %s", $n . $wpdb->esc_like( $term ) . $n );
+
+        if ( ! is_user_logged_in() )
+            $search[] = "$wpdb->posts.post_password = ''";
+
+        $search = ' AND ' . implode( ' AND ', $search );
+    }
+
+    return $search;
+}
+
+add_filter( 'posts_search', 'wpse_11826_search_by_title', 10, 2 );
+
+add_filter('posts_orderby','my_sort_custom',10,2);
+function my_sort_custom( $orderby, $query ){
+    global $wpdb;
+
+    if(!is_admin() && is_search()) 
+        $orderby =  $wpdb->prefix."posts.post_title ASC";
+
+    return  $orderby;
+}
+
+	//crmregform af page
+	function crmregform_shortcode($atts, $content = null) {
+		$atts = shortcode_atts( array(
+			'lang' => 'en',
+		), $atts, 'crmregform' );		
+
+		$html.= '<div class="trustpilot_carousel_wrapper trustpilot trustpilot_carousel-beforeLoad" data-wow-delay="0.1s">';
+					$html.= '<div class="trustpilot_list_btn">';
+						$html.= '<a class="prev" href="#"><span class="fa-stack"><i class="fa fa-angle-left" style=""></i></span></a>';
+						$html.= '<a class="next" href="#"><span class="fa-stack"><i class="fa fa-angle-right" style=""></i></span></a>';
+					$html.= '</div>';
+			$html.= '<ul class="trustpilot_carousel slides">';
+			
+				//query_posts(array( 'post_type' => 'testimonials', 'showposts' => 10 ) ); 
+				//while (have_posts()) : the_post();				
+					$html.= '<li class="trustpilot_content_inner">';
+						$html.= '<div class="trustpilot_content_wrapper">';
+							$html.= '<div class="trustpilot-image">';
+								$html.= '<img src="https://www.daytranslations.com/wp-content/themes/bridge-child/images/tp-stars.png" class="tp-pic">';
+								$html.= '<span>April 18, 2016</span>';
+							$html.= '</div>';
+							$html.= '<div class="trustpilot-review-details">';								
+								$html.= '<div class="trustpilot-title">This is a truly excellent company</div>';
+								$html.= '<div class="trustpilot-review-detaild">';
+									$html.= '<div class="trustpilot-review">I contacted this company late on a Saturday afternoon after I learned that I needed a certified translation of a document ASAP. They answered the phone immediately, responded to emails instantly, and charged a very reasonable price for translating the documents and providing electronic copies by nine the next morning. (They only promise a 24 hour turnaround, but my docs were ready sooner.) They agreed to adjust the price when I decided I did not need hard copies. When I found a tiny error on one page, they sent out a corrected copy in about five minutes. In all, a terrific company. They are worth your trust.</div>';
+									$html.= '<div class="trustpilot-gradain">&nbsp</div>';
+								$html.= '</div>';
+								$html.= '<div class="trustpilot-name">Stephen Brain</div>';
+							$html.= '</div>';
+						$html.= '</div>';
+					$html.= '</li>';
+					
+					
+			$html.= '</ul>';		
+		$html.= '</div>';				
+		return $html;
+	}
+	add_shortcode('crmregform', 'crmregform_shortcode');

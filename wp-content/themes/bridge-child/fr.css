@@ -1,0 +1,104 @@
+/*
+bridge theme es lan css file.
+*/
+.container .container_inner  {
+    width: 1200px;
+}
+nav.main_menu > ul > .boldMenu > a {
+    font-size: 16px;
+}
+nav.main_menu > ul > li > a {
+    font-size: 14px;
+}
+.service-wrapper > .wpb_wrapper {
+    margin: 10px 5px 50px;
+}
+.service-wrapper a.qbutton{ white-space: inherit;}
+.social_name span:nth-child(2){
+	clear: both;
+	display: block;
+}
+.author_rating {
+    max-width: 160px;
+}
+#RESULT_TextArea-11 {
+    margin-bottom: 5px;
+}
+
+/*SUMAN ADD*/
+@media only screen and (max-width: 768px) {
+	.mmibdr {
+		border-bottom: none!important;
+	}
+	.mmibdr1{
+		border-bottom: 2px solid #eaeaea!important;
+	}
+	nav.mobile_menu .mmibdr div.widget_nav_menu ul.menu li:last-child {
+		border-bottom: 1px solid #eaeaea!important;
+	}
+	li.noheight > div.widget_nav_menu > h5 {
+		height: 0;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media only screen and (min-width: 992px) {
+.service_cards .service-wrapper:nth-child(3)::after {clear: both;content: "";display: block;height: 30px;position: relative;}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1201px) {
+	.container .container_inner  {
+		width: 100%;
+	}
+	nav.main_menu > ul > .boldMenu > a {
+		font-size: 14px;
+	}
+	nav.main_menu > ul > li > a {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+	.container .container_inner {
+		width: 100%;
+	}
+	nav.main_menu>ul>li>a {
+		padding: 0 4px!important;
+	}
+	nav.main_menu > ul > .boldMenu > a {
+		font-size: 12px;
+	}
+	nav.main_menu > ul > li > a {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 885px) and (min-width: 769px) {
+nav.main_menu1 > ul > li > a {font-size: 0.9em;padding: 0 6px;}
+.header_bottom_right_widget_holder{padding: 0 10px}
+}
+/*
+body .header-widget.widget_nav_menu li.choose-location > a,body .header-widget.widget_nav_menu li.choose-location > a:hover {color: #fff;}.header-widget.widget_nav_menu.header-right-widget ul ul {background: #f4f4f4;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);overflow: hidden;border-radius: 0 0 3px 3px; display: none!important;}.header-widget.widget_nav_menu.header-right-widget ul ul li a {border-bottom: 1px solid #e6e6e6 !important;}	
+*/
+
+
+@media only screen and (max-width: 640px) and (min-width: 769px) {
+	#quoteFrm320, #quoteFrm {
+		height: 320px;
+	}
+	.intrpt-qot-fr{
+		height: 350px!important;
+	}
+}
+
+@media only screen and (max-width: 639px) {
+	.intrpt-qot-fr{
+		height: 910px!important;
+	}
+	#quoteFrm320, #quoteFrm {
+		height: 800px;
+	}
+}
+
+
+.service_cards .full_section_inner .service-wrapper:nth-child(4) {
+    clear: left;
+}

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="https://earth.google.com/kml/2.2">
+<Document>
+  <name>Locator KML Example</name>
+  <description><![CDATA[]]></description>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>https://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Albuquerque</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https:/\/\www.daytranslations.com/\locations/\albuquerque"><b>Visit Albuquerque<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-106.605766,35.099185,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Anchorage</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/anchorage"><b>Visit Anchorage<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-149.249638,61.193823,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Atlanta</name>
+    <description><![CDATA[<span>Phone: (713) 589-5461<br/><a target="_blank" href="https://www.daytranslations.com/locations/atlanta"><b>Visit Atlanta<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-84.400702,33.749366,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Austin</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/austin"><b>Visit Austin<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-97.727354,30.288491,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Baltimore</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/baltimore"><b>Visit Baltimore<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-76.617063,39.300565,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Charlotte</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/charlotte"><b>Visit Charlotte<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-80.838195,35.215173,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chicago</name>
+    <description><![CDATA[<span>Phone: (312) 238-8653</span><br><span>1 South Dearborn St,<br/>Suite 2100, Chicago,<br/>Illinois, 60603<br/><a target="_blank" href="https://www.daytranslations.com/locations/chicago"><b>Visit Chicago<b></a></span>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-87.629059,41.882808,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dallas</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/dallas"><b>Visit Dallas<b></a></span>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-96.801421,32.783414,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Denver</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/denver"><b>Visit Denver<b></a></span>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-104.956745,39.726242,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Detroit</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/detroit"><b>Visit Detroit<b></a></span>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-83.112947,42.382050,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Lauderdale</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/fort-lauderdale"><b>Visit Fort Lauderdale<b></a></span>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-80.137616,26.130308,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Houston</name>
+    <description><![CDATA[<span>Phone: (713) 589-5461</span><br><span>One Riverway, Suite 1700,<br>Houston, Texas 77056,<br>US<br/><a target="_blank" href="https://www.daytranslations.com/locations/houston"><b>Visit Houston<b></a></span>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-95.462664,29.761059,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Los Angeles</name>
+    <description><![CDATA[<span>Phone: (310) 601-7695</span><br><span>11601 Wilshire Blvd.,<br>5th Floor, Los Angeles,<br>California 90025, US<br/><a target="_blank" href="https://www.daytranslations.com/locations/los-angeles"><b>Visit Los Angeles<b></a></span>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-118.459995,34.050904,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Las Vegas</name>
+    <description><![CDATA[<span>Phone: (713) 589-5461<br/><a target="_blank" href="https://www.daytranslations.com/locations/las-vegas"><b>Visit Las Vegas<b></a></span>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-115.280785,36.205608,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Miami</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/miami"><b>Visit Miami<b></a></span>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-80.208424,25.773032,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New York</name>
+    <description><![CDATA[<span>Phone: (212) 537-6123</span><br><span>415 Madison Avenue,<br>15th floor, New York,<br>NY 10017, US<br/><a target="_blank" href="https://www.daytranslations.com/locations/new-york"><b>Visit New York<b></a></span>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-73.976098,40.756665,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>Orlando</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/orlando"><b>Visit Orlando<b></a></span>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-81.377001,28.541434,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Phoenix</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/phoenix"><b>Visit Phoenix<b></a></span>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-112.082522,33.561625,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Portland</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/portland"><b>Visit Portland<b></a></span>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-122.654431,45.537061,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Reno</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/reno"><b>Visit Reno<b></a></span>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-119.822042,39.522646,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Salt Lake City</name>
+    <description><![CDATA[<span>Phone: (212) 300-5185</span><br><span>2150 South 1300 East Suite 500,<br>Salt Lake City, UT 84106<br/><a target="_blank" href="https://www.daytranslations.com/locations/salt-lake-city"><b>Visit Salt Lake City<b></a></span>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-111.923241,40.777043,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>San Diego</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/san-diego"><b>Visit San Diego<b></a></span>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-117.139152,32.831164,0.000000</coordinates>
+    </Point>
+  </Placemark>  
+  <Placemark>
+    <name>San Jose</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853<br/><a target="_blank" href="https://www.daytranslations.com/locations/san-jose"><b>Visit San Jose<b></a></span>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-121.884743,37.329452,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Seattle</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853</span><br><span>Seafirst Fifth Avenue Plaza,<br>800 Fifth Avenue, Suite 4100,<br>Seattle, WA 98104, US<br/><a target="_blank" href="https://www.daytranslations.com/locations/seattle"><b>Visit Seattle<b></a></span>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-122.326301,47.612448,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tampa</name>
+    <description><![CDATA[<span>Phone: 1-800-969-6853</span><br><span>2202 N Westshore Blvd.,<br>#200,Tampa, Florida 33607, US<br/><a target="_blank" href="https://www.daytranslations.com/locations/tampa"><b>Visit Tampa<b></a></span>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-82.461762,27.965879,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Washington DC</name>
+    <description><![CDATA[<span>Phone: (202) 787-3984</span><br><span>1101 Pennsylvania Ave. NW,<br/>Suite 600, Washington,<br/>DC 20004<br/><a target="_blank" href="https://www.daytranslations.com/locations/dc"><b>Visit Washington DC<b></a></span>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-77.025491,38.909710,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

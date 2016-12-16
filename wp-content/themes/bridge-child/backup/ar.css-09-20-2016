@@ -1,0 +1,45 @@
+/*bridge theme arabic language css file.*/
+.social_carousel_wrapper .caroufredsel_wrapper{ left: 3%!important;}
+.service_cards{ text-align:right!important;}
+.service-wrapper a.qbutton {text-align:right!important;}
+a.qbutton i.right {float: left!important;}
+.colmarginTop, .testimonial_image_name_holder, .testimonial_text_holder{text-align:right!important;}
+.drop_down .wide .second ul li{border-right:none}
+.drop_down .second .inner ul li ul {
+    left: -100%;
+}
+
+/*SUMAN ADD*/
+@media only screen and (max-width: 768px) {
+	.mmibdr {
+		border-bottom: none!important;
+	}
+	.mmibdr1{
+		border-bottom: 2px solid #eaeaea!important;
+	}
+	nav.mobile_menu .mmibdr div.widget_nav_menu ul.menu li:last-child {
+		border-bottom: 1px solid #eaeaea!important;
+	}
+	li.noheight > div.widget_nav_menu > h5 {
+		height: 0;
+		padding: 0;
+		margin: 0;
+	}
+}
+@media (max-width:768px) and (min-width:639px) {
+	#quoteFrm320, #quoteFrm {
+		height: 320px;
+	}
+	.intrpt-qot-fr{
+		height: 350px!important;
+	}
+}
+
+@media only screen and (max-width: 638px) {
+	iframe#quoteFrm320, iframe#quoteFrm  {
+		height: 810px!important;
+	}
+	iframe.intrpt-qot{
+		height: 910px!important;
+	}
+}

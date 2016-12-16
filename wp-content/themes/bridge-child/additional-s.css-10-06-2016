@@ -1,0 +1,873 @@
+.wrapp-box-carousel {
+
+}
+.fa-stack .fa-angle-right, .fa-stack .fa-angle-left {
+	font-size: 28px;
+	z-index: 99;
+}
+.trustpilot_list_btn .next,  .trustpilot_list_btn .prev, .qode_carousels .foo2_next,  .qode_carousels .foo2_prev {
+	position: absolute!important;
+    height: 100%!important;
+    top: 0!important;
+    z-index: 10!important;
+	width: 40px!important;
+	text-align: center;
+}
+.employees_list_btn .next,  .employees_list_btn .prev {
+	position: absolute!important;
+    height: 70%!important;
+    top: 30%!important;
+    z-index: 10!important;
+	width: 40px!important;
+	text-align: center;
+}
+.employees_list_btn .prev:hover,  .trustpilot_list_btn .prev:hover, .qode_carousels .foo2_prev:hover, .employees_list_btn .next:hover, .trustpilot_list_btn .next:hover, .qode_carousels .foo2_next:hover, .human_list_btn .prev:hover, .human_list_btn .next:hover {
+	background-color:rgba(222, 222, 222, 0.5);
+}
+
+/*
+.employees_list_btn .prev:hover,  .trustpilot_list_btn .prev:hover, .qode_carousels .foo2_prev:hover {
+	background-image: -webkit-gradient(linear,0 top,100% top,from(rgba(144, 140, 140, 0.67)),to(rgba(0,0,0,0.0001)));
+    background-image: -webkit-linear-gradient(left,color-stop(rgba(144, 140, 140, 0.67) 0),color-stop(rgba(0,0,0,0.0001) 100%));
+    background-image: -moz-linear-gradient(left,rgba(144, 140, 140, 0.67) 0,rgba(0,0,0,0.0001) 100%);
+    background-image: linear-gradient(to right,rgba(144, 140, 140, 0.67) 0,rgba(0,0,0,0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000',endColorstr='#00000000',GradientType=1);
+}
+.employees_list_btn .next:hover, .trustpilot_list_btn .next:hover, .qode_carousels .foo2_next:hover {
+	background-image: -webkit-gradient(linear,0 top,100% top,from(rgba(0,0,0,0.0001)),to(rgba(144, 140, 140, 0.67)));
+    background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(144, 140, 140, 0.67) 100%));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0.0001) 0,rgba(144, 140, 140, 0.67) 100%);
+    background-image: linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(144, 140, 140, 0.67) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#80000000',GradientType=1);
+}*/
+
+.human_carousel_wrapper > .caroufredsel_wrapper {
+	height:383px;
+}
+li.human_content_inner {
+	width:100%;
+	float:left;
+}
+
+.human-image {
+	width:90%;
+	float:left;
+	vertical-align: middle; 
+	line-height: normal;
+	max-height:383px;
+	margin: 0 5%;
+}
+img.human-pic {
+	max-height: 383px;
+}
+.human-details {
+	position: absolute;
+    float: left;
+    background-color: rgba(51, 51, 51, 0.5);
+    bottom: 0px;
+    padding: 16px;
+    box-sizing: border-box;
+	width: 100%;
+}
+
+.human-name {  
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.33;
+	color: #ffffff;
+}
+
+.human-type {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.25;
+	color: #e1e1e1;
+	margin-bottom:26px;
+}
+
+.human-area {  
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.human-name a, .human-area a {
+	color: #ffffff;
+}
+.human-type  a {
+	color: #e1e1e1;
+}
+.human_carousel_wrapper.human {
+	padding: 0;
+	display: block;
+	/*width: 190%!important;*/
+	position: relative;
+}
+
+.human_list_btn  .prev, .human_list_btn  .next {
+	position:absolute;
+    height: 100%;
+	top:0;
+	z-index:10;
+}.
+.human_list_btn a span {
+	position: relative;
+    top: 40%;
+}
+
+.human_list_btn .prev .fa-stack, .human_list_btn .next .fa-stack {
+    top: 50%;
+    text-align: center;
+    margin-top: -1em;
+}
+
+.human_list_btn  .prev {left:-40px}
+.human_list_btn .next {right: -38px;}
+.human_list_btn .next span.fa-stack {
+	text-align: right;
+}
+
+/*Live page css*/
+.humanlive_carousel_wrapper > .caroufredsel_wrapper {
+	height:300px;
+}
+
+.humanlive_list_btn  .prev, .humanlive_list_btn  .next {
+	position:absolute;
+	top:150px;
+}
+.humanlive_list_btn  .prev {
+	left:-32px;
+}
+.humanlive_list_btn  .next {
+	right:-32px;
+}
+li.humanlive_content_inner {
+	width:100%;
+	float:left;
+}
+
+
+.humanlive-image {
+	width:50%;
+	float:left;
+	vertical-align: middle; 
+	line-height: normal;
+	max-height:300px;
+}
+img.humanlive-pic {
+	max-height: 280px;
+	float:right;
+	margin-right:20px;
+	border:10px solid #FFF;
+}
+.humanlive-details {
+	width:50%;
+	float:left;
+}
+
+.humanlive-name { 
+    font-size: 32px;
+    font-weight: 600;
+    color: #4CB153;
+    margin-left: 20px;
+}
+.humanlive-type {
+	font-size: 21px;
+	font-weight: 300;
+	color: #000;
+	margin-left:20px;
+}
+
+
+.humanlive-area {
+	font-size: 18px;
+	color: #4CB153;
+	margin:3px 0 3px 20px;
+}
+
+.humanlive-date  {
+	font-size: 13px;
+    font-weight: 600;
+	color: #000;
+	margin-left:20px;
+}
+
+.humanlive-lang  {
+	font-size: 16px;
+	color: #000;
+	margin-left:20px;
+	
+}
+
+.humanlive-bio  {
+	font-size: 16px;
+	color: #000;
+	margin:7px 0 7px 20px;
+}
+.humanlive-bio ul {	
+	padding:0!important;
+}
+
+.humanlive-bio ul li {
+	font-size: 16px;
+	color: #000;
+	list-style-type: none;
+}
+
+.humanlive-bio ul li:before {
+    content: "• ";
+    color: #4CB153;
+}
+
+.translator{
+	background: url('./images/green_right.png') no-repeat left;
+    background-size: 16px;
+    padding-left: 25px;
+}
+
+.interpreter{
+	background: url('./images/yellow_tick.png') no-repeat left;
+    background-size: 16px;
+    padding-left: 25px;
+}
+
+.human-image-wrapp {
+	position: relative;
+    float: left;
+}
+
+.meet-vanessa {
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+.homelink h1.clr-orange a {
+    color: #f57c00;
+}
+
+.bigP > .wpb_wrapper > p > a.txtlink {
+    color: #ababab;
+}
+
+.small-orange p a {
+    color: #f57c00;
+}
+.service-box h1 a {
+	font-size: 36px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.33;
+	color: #1e285d;
+}
+
+
+.newhomeBanner {
+	background-image: url(./images/banner-top-humans-min-new.jpg);
+	background-color: #fcfcfc;
+	background-size: 100% auto!important;
+	background-repeat: no-repeat!important;
+	padding-top: 40px;
+	padding-bottom: 340px;
+	background-position: center bottom!important;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	-moz-box-sizing: border-box;
+}
+
+@media screen and (min-width: 1025px){
+	.newhomeBanner {height: 100vh;}
+	
+}
+@media screen and (max-width: 1400px){
+.newhomeBanner h1.clr-orange {
+  padding-top: 20px!important;
+ }
+}
+
+.home-services-wrapper {
+    margin-top: -148px;
+}
+
+
+
+.home-services-wrapper .service-box > .vc_column-inner > .wpb_wrapper {
+	transition: box-shadow .25s;
+    border-radius: 3px;
+	background-color: #ffffff!important;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.home-services-wrapper .service-box > .vc_column-inner > .wpb_wrapper:hover {
+	transition: box-shadow .25s;
+	background-color: #ffffff!important;
+	box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.24), 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.insurance-policy-block {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.81;
+	text-align: center;
+	color: #9b9b9b;
+}
+.insurance-policy-block a {
+	color: #2178b8;
+	text-decoration: underline;
+}
+
+.insurance-policy-img img {
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+	border-image-source: linear-gradient(NaNdeg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
+	border-image-slice: 1;
+}
+
+.employees-name {
+  font-family: Roboto;
+  font-size: 14.8px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.03;
+  text-align: left;
+  color: #81b400;
+  margin-bottom: 5px;
+}
+
+
+.employees-review {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.07;
+	color: #9b9b9b;
+}
+.employees_carousel_wrapper {
+	min-height: 300px;
+}
+.employees-image {
+	width:10%;
+	float:left;
+}
+.employees-review-details {
+	width: 88%;
+	padding-left:2%;
+	float:left;
+}
+.employees_carousel_wrapper .caroufredsel_wrapper {
+	    position: inherit;
+}
+.map-box .wpb_column.vc_column_container.vc_col-sm-12 {
+	margin-bottom: -130px;
+}
+.employeesLove_carousel_wrapper .caroufredsel_wrapper {
+	min-height: 200px;
+}
+
+.employees_list_btn  .prev, .employees_list_btn  .next {
+	position:absolute;
+	top:150px;
+}
+.employees_list_btn  .prev {
+	left:-25px;
+}
+.employees_list_btn  .next {
+	right:-25px;
+}
+li.employees_content_inner , li.trustpilot_content_inner{
+    float: left;
+}
+li.trustpilot_content_inner{
+	margin: 0 25px;
+}
+
+.trustpilot_carousel_wrapper .caroufredsel_wrapper {
+	min-height: 140px;
+}
+.trustpilot-image {
+	height: 20px;
+}
+.trustpilot-image img {
+	height: 20px;
+	float: left;
+}
+
+.trustpilot-image span {
+	float: right;
+	font-size: 12px;
+	color: #C7C7C7;
+}
+.trustpilot-title {
+	font-weight: 600;
+    color: #000;
+    clear: both;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.trustpilot-review {
+	color: #000;
+    clear: both;
+    margin: 5px 0;
+    font-size: 14px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.trustpilot-name {
+	font-weight: 500;
+    color: #000;
+    clear: both;
+    margin: 5px 0;
+    font-size: 12px;
+}
+.trustpilot-gradain {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+	/*background-image: -webkit-gradient(linear,0 top,100% top,from(rgba(0,0,0,0.0001)),to(rgba(255,255,255,1)));
+    background-image: -webkit-linear-gradient(top,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(255,255,255,1) 100%));
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,0.0001) 0,rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.0001) 0,rgba(255,255,255,1) 100%);*/
+}
+
+.trustpilot-review-detaild {
+    position: relative;
+    float: left;
+}
+.tp-title-total {
+	text-align: center;
+	font-size: 22px;
+	color: #000;
+	font-weight: 600;
+	
+}
+.tp-title-total-img {
+	text-align: center;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.trustpilot_list_btn  .prev, .trustpilot_list_btn  .next {
+	position:absolute;
+	top:70px;
+}
+.trustpilot_list_btn  .prev {
+	left:-21px;
+}
+.trustpilot_list_btn  .next {
+	right:-20px;
+}
+
+.tp-title-total-pb {
+	font-size: 14px;
+	color: #B1B1B1;
+	font-weight: 600;
+}
+.tp-title-total-pb img {
+	float: right;
+    width: 75px;
+    margin-top: 6px;
+}
+
+.homebtmbgimg {	
+	background-image: url(/wp-content/uploads/2016/02/home-banner-nogradient.png);
+	background-size: 100% auto!important;
+    background-repeat: no-repeat!important;	
+	padding-top: 70px;
+    padding-bottom: 150px;
+	background-position: center bottom!important;
+}
+/*
+.certifiedser.service-first-box > .vc_column-inner > .wpb_wrapper{
+    transition: box-shadow .25s!important;
+    background-color: #ffffff!important;
+    box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.24), 0 0 24px 0 rgba(0, 0, 0, 0.12)!important;
+	background-image: url(images/certified-translations.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+	background-size: 55px 110px!important;
+}
+
+.certifiedser.service-first-box.service-box .arrowtoright {
+    background: url(images/arrowtoright.png) no-repeat!important;
+    background-position: bottom right!important;
+    height: 18px;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}*/
+.service-box.certifiedser > .vc_column-inner > .wpb_wrapper{
+	background: url(images/certified-translations.png) no-repeat!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+	background-size: 55px 110px!important;
+	background-color: #ffffff!important;
+}
+
+.service-box.transser > .vc_column-inner > .wpb_wrapper{
+	background-image: url(images/translation-services.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+}
+
+.service-box.interser > .vc_column-inner > .wpb_wrapper{
+	background-image: url(images/interpreting-services.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+}
+.service-box.immigser > .vc_column-inner > .wpb_wrapper{
+	background-image: url(images/immigration-services.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+}
+.service-box.localser > .vc_column-inner > .wpb_wrapper{
+	background-image: url(images/localization-services.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+}
+.service-box.transcrser > .vc_column-inner > .wpb_wrapper{
+	background-image: url(images/transcription-services.png)!important;
+    background-repeat: no-repeat!important;
+    background-position: bottom right!important;
+}
+
+.glassdoor-logo img {
+    float: right;
+}
+
+.glassdoor-logo span {
+    display: inline-block;
+    color: inherit;
+}
+
+.trustpilot-logo img {
+    float: right;
+}
+
+.trustpilot-logo span {
+    display: inline-block;
+    color: inherit;
+}
+	
+.logo_scroll ul {
+	width: 100%;
+    padding-top: 16px;
+}
+
+.logo_scroll li {
+    float: left;
+    list-style-type: none;
+    padding: 2%;
+}
+
+
+
+.bottomBackground.homeBannerPad.HomeBannerBg.blog-section {
+	background-color: #FFFFFF!important;
+    background-image: url(/wp-content/uploads/2016/02/home-banner-nogradient.png),-moz-linear-gradient(top,#FFFFFF 0%,#FFFFFF 100%)!important;
+    background-image: url(/wp-content/uploads/2016/02/home-banner-nogradient.png),-webkit-linear-gradient(top,#FFFFFF 0%,#FFFFFF 100%)!important;
+    background-image: url(/wp-content/uploads/2016/02/home-banner-nogradient.png),linear-gradient(to bottom,#FFFFFF 0%,#FFFFFF 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#FFFFFF',GradientType=0)!important;
+}
+.post-box-inner .img-box {
+	height: 120px;
+}
+
+
+
+
+
+.employees_list_btn .next .fa-stack, .employees_list_btn .prev .fa-stack {
+	top: 47%!important;
+}
+.trustpilot_list_btn .next .fa-stack, .trustpilot_list_btn .prev .fa-stack{
+	top: 36%!important;
+}
+.qode_carousels .foo2_next .fa-stack,  .qode_carousels .foo2_prev .fa-stack {
+	top: 38%!important;
+}
+
+.thanks-for .qode_carousels .foo2_next .fa-stack, .thanks-for  .qode_carousels .foo2_prev .fa-stack {
+	top: 30%!important;
+}
+
+
+.human_list_btn .prev, .human_list_btn .next {
+	width: 40px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 960px){
+	.humanlive_list_btn  .prev img, .humanlive_list_btn  .next img {
+		height: 50px;
+	}
+	.humanlive-name { 
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-device-width: 569px) and (max-device-width: 767px){
+	.humanlive_list_btn  .prev img, .humanlive_list_btn  .next img {
+		height: 32px;
+	}
+	.humanlive-name { 
+		font-size: 20px;
+	}
+	.logo_scroll li {
+		float: left;
+		list-style-type: none;
+		padding: 2%;
+		width: 33%;
+	}
+	
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 568px){
+	.humanlive_list_btn  .prev img, .humanlive_list_btn  .next img {
+		height: 32px;
+	}
+	.humanlive-name { 
+		font-size: 20px;
+	}
+	.humanlive-image {
+		max-height: 150px;
+	}
+	.humanlive-image img {
+		max-height: 130px;
+	}
+	.humanlive-image {
+		width: 35%;
+	}
+	.humanlive-details {
+		width: 65%;
+	}
+	img.humanlive-pic {
+		margin-right: 10px;
+		border: 4px solid #FFF;
+	}
+	.humanlive-type, .humanlive-name, .humanlive-area, .humanlive-date, .humanlive-lang, .humanlive-bio {
+		margin-left: 10px;
+	}
+	.humanlive-type {
+		font-size: 16px;
+	}
+	.humanlive-name{
+		font-size: 18px;
+	}
+	.humanlive-lang, .humanlive-bio, .humanlive-bio ul li {
+		font-size: 14px;
+	}
+	.glassdoor-logo {
+		background-image: none!important;
+	}
+	.logo_scroll li {
+		float: left;
+		list-style-type: none;
+		padding: 2%;
+		width: 50%;
+	}
+	
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px){
+	.humanlive_list_btn  .prev {
+		left: 16px;
+		z-index: 9;
+	}
+	.humanlive_list_btn  .next {
+		right: 16px;
+		z-index: 9;
+	}
+	.humanlive_list_btn  .prev img, .humanlive_list_btn  .next img {
+		height: 32px;
+	}
+	.humanlive-name { 
+		font-size: 20px;
+	}
+	
+	.humanlive-image {
+		width:100%;
+		text-align:left;
+		margin-left:30px;
+	}
+	.humanlive-image img {
+		float:none;
+	}
+	.humanlive-details {
+		width:100%;
+		text-align:left;
+		margin-left:30px;
+	}
+	.humanlive-type, .humanlive-name, .humanlive-area, .humanlive-date, .humanlive-lang, .humanlive-bio {
+		margin-left: 0px;
+	}
+	.service-box > .vc_column-inner > .wpb_wrapper {
+		background-image: none!important;
+	}
+	.glassdoor-logo {
+		background-image: none!important;
+	}
+	.logo_scroll li {
+		float: left;
+		list-style-type: none;
+		padding: 2%;
+		width: 100%;
+	}
+}
+
+/* For form fix*/
+@media screen and (min-width: 769px) {
+	.iframeform-wrapper .iframeform.affix {
+		top: 120px;
+		width: 253px;
+		position: fixed;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.iframeform-wrapper .iframeform{
+		position:static;
+	}
+	.affix {
+		position: fixed;
+	}
+	
+	.affix + .text-90 {
+		display:none;
+	}
+	.iframeform-wrapper .iframeform.affix-bottom {
+		position: absolute;
+		width: 100%;
+		/*opacity: 0;*/
+		bottom: 0;		
+    	top: auto !important;
+	}
+	.iframeform #quoteFrm {
+		height: 380px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.iframeform-wrapper .iframeform.affix, .iframeform-wrapper .iframeform.affix-bottom {
+		width: 337px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.iframeform-wrapper .iframeform.affix, .iframeform-wrapper .iframeform.affix-bottom {
+		width: 337px;
+	}		
+}
+
+@media screen and (min-width: 1024px) {
+	.iframeform-wrapper .iframeform.affix, .iframeform-wrapper .iframeform.affix-bottom {
+		width: 428px;
+	}		
+}
+
+@media screen and (min-width: 1024px) {
+	.iframeform-wrapper .iframeform.affix, .iframeform-wrapper .iframeform.affix-bottom {
+		width: 428px;
+	}		
+}
+
+@media screen and (min-width: 1280px) {
+	.iframeform-wrapper .iframeform.affix, .iframeform-wrapper .iframeform.affix-bottom {
+		width: 503px;
+	}		
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+	.home-services-wrapper {
+		margin-top: -80px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.iframeform-wrapper.vc_col-sm-6, .iframeform-wrapper.vc_col-sm-6 + .vc_col-sm-6  {
+		width:100%!important;
+	}	
+	.service-box h1 a {
+		font-size: 22px;
+	}
+	.midP > .wpb_wrapper > p, .midP > .wpb_wrapper > p a {
+		font-size: 14px;
+	}
+	.search .blog_holder article {
+		width: 100%;
+	}
+	.home-services-wrapper {
+		margin-top: 0px;
+	}
+	.newhomeBanner {
+		padding-bottom: 30%;
+	}
+	.service-box.certifiedser > .vc_column-inner > .wpb_wrapper {
+		background-position: right 20px bottom 10px!important;
+	}
+	.newhomeBanner{padding-top: 20px;}
+}
+
+@media screen and (max-width: 567px) {
+	.iframeform #quoteFrm {
+		height: 600px!important;
+	}
+}
+@media screen and (max-width:767px){
+	.glassdoor-logo span{margin-bottom:10px}
+	.glassdoor-logo img {float:left; margin-bottom:10px!important;}
+	.trustpilot-logo span{margin-bottom:10px}
+	.trustpilot-logo img {float:left; margin-bottom:10px!important;}
+}
+.search > .wrapper > .wrapper_inner > .content  {
+	margin-top: 130px;
+}
+.search > .wrapper > .wrapper_inner > .content  > .content_inner  > .container{
+	background-color: #FFF;
+}
+.search .blog_holder article .post_text .post_text_inner {
+	padding: 0;
+}
+.search .blog_holder article {
+	margin-bottom: 10px;
+	width: 50%;
+	float: left;
+}
+.search .blog_holder article .post_text .post_text_inner h2 a {
+	color: #268cc5;
+    text-decoration: underline;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 414px) {
+	.logo_wrapper, .header_bottom_right_widget_holder, .mobile_menu_button, .side_menu_button{
+		height: 70px!important;
+	}
+}
